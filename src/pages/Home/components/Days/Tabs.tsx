@@ -19,7 +19,7 @@ function Tabs(props: Props) {
     <div className={styles.tabs}>
       <div className={styles.tabs_wrapper}>
         {tabs.map((tab) => (
-          <div className={styles.tab} key={tab.value}>
+          <div className={styles.tab + " " + styles.active} key={tab.value}>
             {tab.value}
           </div>
         ))}
