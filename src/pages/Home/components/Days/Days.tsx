@@ -73,12 +73,12 @@ function Days(props: Props) {
   ];
   return (
     <>
-    <Tabs/>
-    <div className={styles.days}>
-      {days.map((day: Day) => (
-        <Card day={day}  key={day.day} />
-      ))}
-    </div>
+      <Tabs />
+      <div className={styles.days}>
+        {days.map((day: Day) => (
+          <Card day={day} key={day.day} />
+        ))}
+      </div>
     </>
   );
 }

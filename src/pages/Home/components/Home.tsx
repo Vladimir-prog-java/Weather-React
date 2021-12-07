@@ -10,10 +10,10 @@ function Home(props: Props) {
   return (
     <div className={styles.home}>
       <div className={styles.wrapper}>
-      <ThisDay />
-      <ThisDayInfo/>
+        <ThisDay />
+        <ThisDayInfo />
       </div>
-      <Days/>
+      <Days />
     </div>
   );
 }

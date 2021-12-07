@@ -1,7 +1,8 @@
+@import '../../../styles/variables.scss';
 .header {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 100%;
   margin-bottom: 30px;
 }
@@ -10,13 +11,14 @@
   display: flex;
   align-items: center;
 }
+
 .change_theme,
-.logo{
+.logo {
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .logo {
-  margin-right: 20px;
   svg {
     width: 65px;
     height: 65px;
@@ -27,4 +29,5 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
+  color: $primary-color;
 }

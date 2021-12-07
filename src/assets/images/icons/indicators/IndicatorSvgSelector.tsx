@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface Props {
   id: string;
@@ -6,7 +6,7 @@ interface Props {
 
 export const IndicatorSvgSelector = ({ id }: Props) => {
   switch (id) {
-    case 'temp':
+    case "temp":
       return (
         <svg
           width="25"
@@ -80,7 +80,7 @@ export const IndicatorSvgSelector = ({ id }: Props) => {
           </defs>
         </svg>
       );
-    case 'pressure':
+    case "pressure":
       return (
         <svg
           width="19"
@@ -125,7 +125,7 @@ export const IndicatorSvgSelector = ({ id }: Props) => {
           </defs>
         </svg>
       );
-    case 'precipitation':
+    case "precipitation":
       return (
         <svg
           width="19"
@@ -164,7 +164,7 @@ export const IndicatorSvgSelector = ({ id }: Props) => {
           />
         </svg>
       );
-    case 'wind':
+    case "wind":
       return (
         <svg
           width="20"
